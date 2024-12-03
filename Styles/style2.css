@@ -1,0 +1,45 @@
+@charset "UTF-8";
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    /* border:2px solid red; */
+    height:750px;
+    width:1505px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap:60px;
+    background-image: url('car-1880381_1920.jpg');
+    background-size:cover;
+}
+h1{
+    /* border:2px solid red; */
+    height:60px;
+    width:350px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:whitesmoke;
+    background-color:#918484;
+    border-radius:20px;
+}
+#a{
+    display:flex;
+    gap:40px;
+    height:30px;
+    width:190px;
+	border-radius:10px;
+    background-color:#c9c998;
+}
+#b{
+    
+    border-radius:10px;
+    width:90px;
+    height:30px;
+    background-color:#b86060;
+}
