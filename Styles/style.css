@@ -1,0 +1,47 @@
+ @charset "UTF-8";
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    /* border:2px solid red; */
+    height:750px;
+    width:1505px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap:30px;
+    background-image: url('maserati-gran-turismo-1649119.jpg');
+    background-size:cover;
+    
+    
+
+    
+}
+h1{
+    display:flex;
+    /* border:2px solid red; */
+    border-radius:20px;
+    height:80px;
+    background-color:slategrey;
+    font-family:system-ui;
+    font-size:50px;
+    color:ghostwhite;
+}
+#a{
+    font-size:20px;
+    /* border:2px solid red; */
+    border-radius:20px;
+    color:black;
+    height:50px;
+    width:170px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:white;
+    text-decoration:none;
+    
+}
